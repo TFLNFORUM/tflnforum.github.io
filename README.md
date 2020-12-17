@@ -1,2 +1,4 @@
 # TFLN-Forum
-ssss
+Tüm Hakları Saklıdır TELİF HAKKI 
+All Rights Reserved COPYRIGTHED
+
