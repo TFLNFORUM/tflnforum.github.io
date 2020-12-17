@@ -1,0 +1,130 @@
+<html>
+
+    <HEAD>
+ 
+
+<style>
+
+
+body{
+
+
+    background-image: linear-gradient( 135deg, #F05F57 10%, #360940 100%);;
+
+
+
+}
+
+
+
+
+
+        </style>
+
+ </style>
+ 
+ 
+        <SCRIPT LANGUAGE="JavaScript">
+         
+         
+         
+        
+         
+        
+         
+         
+         
+        
+         
+        function Login(){
+         
+        var done=0;
+         
+        var username=document.login.username.value;
+         
+        username=username.toLowerCase();
+         
+        var password=document.login.password.value;
+         
+        password=password.toLowerCase();
+         
+        if (username=="moderator" && password=="mvmestıkmods1212qerty") { window.location="portal.html"; done=1; }
+         
+        if (username=="moderator" && password=="password221") { window.location="topluluk.html"; done=1; }
+         
+        if (username=="member3" && password=="password3") { window.location="page3.html"; done=1; }
+         
+        if (done==0) { alert("Şifreniz Yanlış"); }
+         
+        }
+         
+        
+         
+        </SCRIPT>
+         
+         
+         
+        
+         
+         
+         
+        <BODY>
+         
+         
+         
+        <center>
+         
+        <form name=login>
+         
+        <table width=225 border=1 cellpadding=3>
+         
+        <tr><td colspan=2><center><font size="+2"><b>Devam Etmek İçin Lütfen Şifre Girin</b></font></center></td></tr>
+         
+        <tr><td>Kullanıcı Adı:</td><td><input type=text name=username></td></tr>
+         
+        <tr><td>Şifre:</td><td><input type=text name=password></td></tr>
+         
+        <tr><td colspan=2 align=center><input type=button value="Giriş Yapın!" onClick="Login()"></td></tr>
+         
+        </table>
+         
+        </form>
+         
+        </center>
+         
+         
+         
+        <p><center>
+         
+        
+         
+        </center><p>
+    
+
+
+            <script type="text/javascript">
+             
+                function IE(e) {
+                     if (navigator.appName == "Microsoft Internet Explorer" && (event.button == "2" || event.button == "3")) {
+                          alert('.');
+                          return false;
+                     }
+                }
+                function NS(e) {
+                     if (document.layers || (document.getElementById && !document.all)) {
+                          if (e.which == "2" || e.which == "3") {
+                               alert('Bu Sitede Sağ Tıklama Yapamazsınız TFLN Ekibi');
+                               return false;
+                          }
+                     }
+                }
+                document.onmousedown=IE;document.onmouseup=NS;document.oncontextmenu=new Function("return false");
+               
+                </script>
+
+
+<title> TFLN Güvenlik Duvarı</title>
+
+
+
+</html>
